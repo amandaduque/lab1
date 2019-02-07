@@ -29,3 +29,117 @@ button {
     border-left: 2px solid #69696a;
     padding: 0% 0% 0% 1%;
 }
+
+@media only screen and (min-width: 768px){
+    html{
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f9fafc;
+    }
+    
+    nav {
+        padding: 15px 18px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+    section {
+        font-family: 'Open Sans', sans-serif;
+        width: 60%;
+    }
+    
+    ul {
+        font-family: 'Open Sans', sans-serif;
+        width: 40%;
+        display: flex;
+        align-content: flex-end;
+    }
+    
+    ul li {
+        font-family: 'Open Sans', sans-serif;
+        display: inline-block;
+        color: #69696a;
+        padding: 7px;
+        font-size: 15px;
+    }
+    
+    .navButton {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #000;
+        color: white;
+        border-radius: 20px;
+        padding: 5px;
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+    
+    }
+    
+    h1 {
+        margin-left: 1%;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .text {
+        color: #69696a;
+        font-family: 'Open Sans', sans-serif;
+        width: 50%;
+        margin-left: 1%;
+        border: none;
+        border-left: 2px solid #69696a;
+        padding: 0% 0% 0% 1%;
+    }
+    
+    .circle1 {
+        border: none;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 20%;
+        left: 60%;
+    }
+    
+    .circle2 {
+        border: none;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 30%;
+        left: 80%;
+    }
+    
+    .circle3 {
+        border: none;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 45%;
+        left: 75%;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .scrollButton {
+    
+        background-color: #000;
+        color: white;
+        border-radius: 20px;
+        position: absolute;
+        top: 80%;
+        padding: 5px;
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
