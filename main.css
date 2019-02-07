@@ -20,9 +20,9 @@ section {
 
 ul {
     font-family: 'Open Sans', sans-serif;
-width: 40%;
-display: flex;
-align-content: flex-end;
+    width: 40%;
+    display: flex;
+    align-content: flex-end;
 }
 
 ul li {

@@ -1,0 +1,31 @@
+body {
+    background-color: #f9fafc;
+    font-family: 'open sans', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    color: #69696a;
+}
+
+ul li {
+
+}
+
+button {
+    background-color: #000;
+    color: white;
+    width: 350px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.text {
+    color: #69696a;
+    border-left: 2px solid #69696a;
+    padding: 0% 0% 0% 1%;
+}
